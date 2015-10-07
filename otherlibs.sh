@@ -11,3 +11,4 @@ sudo apt-get install cifs-utils
 sudo apt-get install samba-common
 sudo apt-get install smbfs
 sudo pip install scikit-image
+sudo pip install h5py
