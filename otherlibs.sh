@@ -1,7 +1,7 @@
-supt-get install git
+sudo apt-get install git
 sudo apt-get install python-pip
 
-do apt-get install python-yaml
+sudo apt-get install python-yaml
 sudo pip install pandas
 sudo apt-get install htop
 sudo apt-get install lm-sensors
