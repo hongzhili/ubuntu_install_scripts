@@ -1,24 +1,24 @@
-sudo apt-get install git
-sudo apt-get install python-pip
+sudo apt-get -y install git
+sudo apt-get -y install python-pip
 
 sudo pip install cython
-sudo apt-get install python-yaml
+sudo apt-get -y install python-yaml
 sudo pip install pandas
-sudo apt-get install htop
-sudo apt-get install lm-sensors
-sudo apt-get install cuda
-sudo apt-get install cmake
-sudo apt-get install cifs-utils
-sudo apt-get install samba-common
-sudo apt-get install smbfs
+sudo apt-get -y install htop
+sudo apt-get -y install lm-sensors
+sudo apt-get -y install cuda
+sudo apt-get -y install cmake
+sudo apt-get -y install cifs-utils
+sudo apt-get -y install samba-common
+sudo apt-get -y install smbfs
 sudo pip install scikit-image
 sudo pip install h5py
 
 
-sudo apt-get install unzip
+sudo apt-get -y install unzip
 
 sudo pip install --upgrade setuptools pip
-sudo apt-get install python3-pip
+sudo apt-get -y install python3-pip
 sudo pip3 install jupyterhub
 sudo pip install matplotlib
 sudo pip install gensim
