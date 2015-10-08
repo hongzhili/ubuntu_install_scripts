@@ -12,3 +12,12 @@ sudo apt-get install samba-common
 sudo apt-get install smbfs
 sudo pip install scikit-image
 sudo pip install h5py
+
+
+sudo apt-get install unzip
+
+sudo pip install --upgrade setuptools pip
+sudo apt-get install python3-pip
+sudo pip3 install jupyterhub
+sudo pip install matplotlib
+sudo pip install gensim
