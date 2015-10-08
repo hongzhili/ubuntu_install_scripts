@@ -22,3 +22,13 @@ sudo apt-get -y install python3-pip
 sudo pip3 install jupyterhub
 sudo pip install matplotlib
 sudo pip install gensim
+
+sudo apt-get -y install npm
+sudo npm install -g configurable-http-proxy
+sudo apt-get -y install nodejs-legacy
+sudo pip3 install "ipython[notebook]"
+sudo pip install jupyter
+sudo pip install IPython
+sudo python -m IPython kernelspec install-self
+
+sudo pip install protobuf
