@@ -1,6 +1,7 @@
 sudo apt-get install git
 sudo apt-get install python-pip
 
+sudo pip install cython
 sudo apt-get install python-yaml
 sudo pip install pandas
 sudo apt-get install htop
