@@ -33,3 +33,5 @@ sudo python -m IPython kernelspec install-self
 
 sudo pip install protobuf
 sudo pip install lmdb
+
+sudo apt-get -y install libarmadillo-dev
