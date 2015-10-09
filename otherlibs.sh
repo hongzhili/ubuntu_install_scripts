@@ -32,3 +32,4 @@ sudo pip install IPython
 sudo python -m IPython kernelspec install-self
 
 sudo pip install protobuf
+sudo pip install lmdb
