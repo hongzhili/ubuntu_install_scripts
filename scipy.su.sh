@@ -1,11 +1,11 @@
-rm scipy-0.15.1.tar.gz
-wget https://pypi.python.org/packages/source/s/scipy/scipy-0.15.1.tar.gz
+rm scipy-0.18.0.tar.gz
+wget https://pypi.python.org/packages/01/a1/dce70d47377d662aa4b0895df8431aee92cea6faefaab9dae21b0f901ded/scipy-0.18.0.tar.gz
 
-rm -r scipy-0.15.1
-tar -zxvf scipy-0.15.1.tar.gz
+rm -r scipy-0.18.0
+tar -zxvf scipy-0.18.0.tar.gz
 
 
-cd scipy-0.15.1
+cd scipy-0.18.0
 
 export BLAS=/opt/OpenBLAS/lib/libopenblas.so
 export LAPACK=/opt/OpenBLAS/lib/libopenblas.so
@@ -16,5 +16,5 @@ python setup.py install
 
 cd ..
 
-rm -r  scipy-0.15.1
-rm scipy-0.15.1.tar.gz
+rm -r  scipy-0.18.0
+rm scipy-0.18.0.tar.gz
