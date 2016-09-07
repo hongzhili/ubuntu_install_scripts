@@ -11,7 +11,7 @@ sudo python setup.py install
 sudo apt-get -y install python-nose
 
 cd ..
-python -c "import numpy as np; np.test()"
-rm numpy-1.11.1.tar.gz
-rm -r numpy-1.11.1
+#python -c "import numpy as np; np.test()"
+sudo rm numpy-1.11.1.tar.gz
+sudo rm -r numpy-1.11.1
 
